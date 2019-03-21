@@ -1,0 +1,8 @@
+firar of all ensure http package should be instLled in your system.
+package name httpd 3.0
+then start the service httpd
+and enable that so it run at time of booting
+then check the status of that service 
+and then add httpd in firewall using command firewall-cmd --add-service=http --permanent
+and then reload firewall
+and then run http in any browser it will dhowing test page of http server or apache server.
